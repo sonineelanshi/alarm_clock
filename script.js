@@ -5,7 +5,7 @@ const minuteInput = document.getElementById("minuteInput");
 const activeAlarms = document.querySelector(".activeAlarms");
 const setAlarm = document.getElementById("set");
 let alarmsArray = [];
-let alarmSound = new Audio("./image/ringtone.mp3");
+let alarmSound = new Audio("./Image/ringtone.mp3");
 
 let initialHour = 0,
   initialMinute = 0,
